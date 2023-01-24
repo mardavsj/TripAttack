@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 const author = () => {
   return (
-    <div className="flex py-5">
+    <div className="flex py-5 pb-14">
         <Image src={"/assests/image2.jpg"} width={50} height={50} className="rounded-full"/>
         <div className="flex flex-col justify-center px-4">
             <Link href="/">
